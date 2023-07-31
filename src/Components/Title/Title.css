@@ -1,0 +1,93 @@
+
+
+
+.titleCard{
+    position: relative; 
+    width: 50vw;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1E1B1E;
+    border-radius: 15px;
+}
+
+
+.title{
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 3.2vw;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+    color: #FEFEFE;
+}
+
+
+.titleButton{
+    position: absolute;
+    background-color: #8325FD;
+    font-family: 'Poppins', sans-serif;
+    border: 0px;
+    font-size: 2.2vw;
+    border-radius: 15px; 
+    color: #FEFEFE;
+    height: 50px;
+    bottom: 1vw;
+    right: 3vw;
+    transition: transform 0.2s;
+}
+
+
+.titleButton:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 768px){
+    .titleCard{
+        position: initial;
+        width: auto;
+        font-family: 'Poppins', sans-serif;
+        background-color: #1E1B1E;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3vw;
+    }
+    
+    
+    .title{
+        padding: 0;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        font-size: 7vw;
+        margin-left: 1vw;
+        margin-bottom: 1vw;
+        color: #FEFEFE;
+    }
+    
+    
+    .titleButton{
+        position: initial;
+        background-color: #8325FD;
+        font-family: 'Poppins', sans-serif;
+        justify-self: center;
+        border: 0px;
+        font-size: 7vw;
+        margin-left: 2vw;
+        border-radius: 15px; 
+        color: #FEFEFE;
+        height: auto;
+        transition: transform 0.2s;
+        margin-bottom: 3vw;
+    }
+    
+    
+    .titleButton:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+}
+
+
+

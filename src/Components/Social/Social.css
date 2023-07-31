@@ -1,0 +1,22 @@
+.social{
+    font-family: 'Poppins', sans-serif;
+    background-color: #1E1B1E;
+    border-radius: 15px;
+    font-size: 30px;
+    color: #FEFEFE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icon{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    text-decoration: none;
+    color:#FEFEFE;
+    transition: transform 0.2s;
+}
+
+.icon:hover{
+    transform: scale(1.5);
+}
