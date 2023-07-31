@@ -1,5 +1,5 @@
 import "./Image.css"
-import ivan from "../../assets/ivan.jpg"
+import ivan from "../../assets/ivan.png"
 
 
 
