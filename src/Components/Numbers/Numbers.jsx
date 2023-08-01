@@ -14,13 +14,13 @@ export default function Numbers() {
       }
 
       // Incrementa el número de proyectos hasta llegar a 5
-      if (projects < 5) {
+      if (projects < 125) {
         setProjects(prevProjects => prevProjects + 1);
       }
-    }, 250); // 1000 milisegundos = 1 segundo
+    }, 25); // 1000 milisegundos = 1 segundo
 
     // Limpia el intervalo cuando los números lleguen a los valores deseados
-    if (yearsLearning === 2 && projects === 5) {
+    if (yearsLearning === 2 && projects === 125) {
       clearInterval(interval);
     }
 
@@ -35,8 +35,8 @@ export default function Numbers() {
         <span className="numbersSpan">Años aprendiendo</span>
       </div>
       <div className="numbers2">
-        <h6 className="numbersData">{projects}</h6>
-        <span className="numbersSpan">Proyectos de calidad</span>
+        <h6 className="numbersData">+{projects}</h6>
+        <span className="numbersSpan">Contribuciones en Github</span>
       </div>
       <div className="numbers3">
         <h6 className="numbersData">Muchas</h6>
