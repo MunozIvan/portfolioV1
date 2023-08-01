@@ -7,7 +7,7 @@ export default function Name() {
 
         <div className="name">
             <div className="nameContent">
-                <h4 className="nameTitle">Nombre:</h4>
+                <h4 className="nameTitle">Name:</h4>
 
                 <span className="nameIvan">Iván Muñoz Gomez</span>
             </div>

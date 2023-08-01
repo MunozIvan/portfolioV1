@@ -35,9 +35,9 @@ export default function Projects() {
 
         <div className="projects">
             <div className="projectsContent">
-                <h4 className="projectsTitle">Algunos proyectos</h4>
+                <h4 className="projectsTitle">Some Projects</h4>
 
-                <a href="https://github.com/MunozIvan" target="_blank" rel="noopener noreferrer"><span className="projectsMore">Ver todos</span></a>
+                <a href="https://github.com/MunozIvan" target="_blank" rel="noopener noreferrer"><span className="projectsMore">See all</span></a>
             </div>
 
             <div className="projectsImages">

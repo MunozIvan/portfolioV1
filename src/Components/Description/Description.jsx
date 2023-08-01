@@ -9,12 +9,12 @@ export default function Description() {
 
         <div className="description">
             <div className="descriptionContent">
-                <h4 className="descriptionTitle">Sobre mi</h4>
+                <h4 className="descriptionTitle">About me</h4>
 
-                <span className="descriptionMore">Mentalidad</span>
+                <span className="descriptionMore">Mindset</span>
             </div>
 
-            <p className="descriptionP">Siempre estoy interesado en aprender nuevas tecnologías y enfrentar desafíos que impulsen mi crecimiento profesional y la excelencia en cada proyecto.</p>
+            <p className="descriptionP">I am always interested in learning new technologies and facing challenges that drive my professional growth and brings excellence in every project.</p>
 
         </div>
         

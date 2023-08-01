@@ -32,15 +32,15 @@ export default function Numbers() {
     <div className="numbers">
       <div className="numbers1">
         <h6 className="numbersData">+{yearsLearning}</h6>
-        <span className="numbersSpan">Años aprendiendo</span>
+        <span className="numbersSpan">Years learning</span>
       </div>
       <div className="numbers2">
         <h6 className="numbersData">+{projects}</h6>
-        <span className="numbersSpan">Contribuciones en Github</span>
+        <span className="numbersSpan">Contributions on Github</span>
       </div>
       <div className="numbers3">
-        <h6 className="numbersData">Muchas</h6>
-        <span className="numbersSpan">Ganas de crecer</span>
+        <h6 className="numbersData">A lot</h6>
+        <span className="numbersSpan">Enthusiasm to Grow</span>
       </div>
     </div>
   );

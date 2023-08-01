@@ -8,7 +8,7 @@ export default function Header() {
 
         <div className="header">
             <div className="headerContent">
-                <h2 className="headerTitle">Mi Portfolio</h2>
+                <h2 className="headerTitle">My Portfolio</h2>
 
                 <i className="bi bi-briefcase-fill"/>
             </div>
